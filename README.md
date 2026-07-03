@@ -1,5 +1,7 @@
 # jsc2js
 
+**English** | [中文](./README_CN.md)
+
 Encrypt / decrypt Cocos Creator `.jsc` files (XXTEA) to / from `.js` source.
 
 ## Overview
@@ -13,8 +15,18 @@ JavaScript source files (`.jsc`).  `jsc2js` provides a command-line tool to:
 ## Installation
 
 ```bash
-npm install -g jsc2js
+# Clone the repo
+git clone https://github.com/firekula/jsc2js.git
+cd jsc2js
+
+# Install dependencies
+npm install
+
+# (Optional) Register as a global command
+npm link
 ```
+
+Once linked you can use `jsc2js` directly; otherwise use `node index.js`.
 
 Requires **Node.js ≥ 14**.
 

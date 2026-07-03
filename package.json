@@ -1,6 +1,6 @@
 {
   "name": "jsc2js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Encrypt/decrypt Cocos Creator .jsc files (XXTEA) to/from .js source",
   "main": "index.js",
   "bin": {
